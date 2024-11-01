@@ -1,0 +1,149 @@
+/* Counter container styles, you probably don't need to change these */
+.odl-widget-container {
+    text-align: center;
+}
+
+.odl-widget-container p {
+    margin: 0;
+}
+
+.odl, .odl-counter {
+    width: auto;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.odl-left, .odl-center, .odl-right {
+    display: block;
+}
+
+.odl-left {
+    text-align: left;
+}
+
+.odl-right {
+    text-align: right;
+}
+
+.odl-center {
+    text-align: center;
+}
+
+.odl-inline {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.odl-odometer-div, .odl-digit-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.odl-odometer-div {
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+    text-align: inherit;
+}
+
+/* 3d effect high/lowlights */
+
+.odl-highlight, .odl-lowlight {
+    position: absolute;
+    opacity: 0.25;
+    filter: alpha(opacity=25);
+    width: 100%;
+    left: 0px;
+}
+
+.odl-highlight {
+    background: white;
+}
+
+.odl-lowlight {
+    background: black;
+}
+
+.odl-sidehighlight, .odl-sidelowlight {
+    position: absolute;
+    opacity: 0.50;
+    filter: alpha(opacity=50);
+    height: 100%;
+    top: 0px;
+}
+
+.odl-sidehighlight {
+    background: white;
+}
+
+.odl-sidelowlight {
+    background: black;
+}
+
+.odl-highlight-1 {
+    top: 20%;
+    height: 32%;
+}
+
+.odl-highlight-2 {
+    top: 27.5%;
+    height: 16%;
+}
+
+.odl-highlight-3 {
+    top: 32.5%;
+    height: 6%;
+}
+
+.odl-highlight-4 {
+    right: 0%;
+    width: 6%;
+}
+
+.odl-highlight-5 {
+    left: 0%;
+    width: 4%;
+}
+
+.odl-highlight-6 {
+    top: 0%;
+    height: 14%;
+}
+
+.odl-highlight-7 {
+    bottom: 0%;
+    height: 25%;
+}
+
+.odl-highlight-8 {
+    bottom: 0%;
+    height: 8%;
+}
+
+/* Base styles for digits, can be overridden by settings */
+
+/*.odl-digit, .odl-tenth {
+    position: absolute;
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: Courier New, Courier, monospace;
+    font-weight: 900;
+}*/
+.odl-digit, .odl-tenth {
+    padding-top: 2px;
+    position: absolute;
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: Courier New, Courier, monospace;
+    font-weight: 900;
+}
+
+.odl-tenth {
+    background: #cccccc;
+    color: black;
+}

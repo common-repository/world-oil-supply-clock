@@ -1,0 +1,69 @@
+#odl-widget {
+    padding: 5px;
+}
+#odl-widget p {
+    text-align: center;
+}
+.widget_odl_widget .widget-title {
+    color: #cf1f3e;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#odl-widget .numbers {
+    color: #ff0000;
+}
+
+#odl-widget table tr td:last-child {
+    text-align: right;
+}
+
+.widget_odl_widget .copyright {
+    text-align: center;
+    font-size: 12px;
+    margin: 3px 0;
+}
+
+.odl-widget-container {
+    margin-top: 15px;
+}
+.odl-widget-container:first-child {
+    margin-top: 0;
+}
+
+.odl-countdown {
+    width: 38px;
+}
+
+#odl-widget .odl-countdown-element {
+    width: 39px;
+    float: left;
+    text-align: center;
+}
+
+#odl-widget .odl-ml-5 {
+    margin-left: 5px;
+}
+
+.odl-clearfix:before,
+.odl-clearfix:after {
+    display: table;
+    content: " ";
+}
+.odl-clearfix:after {
+    clear: both;
+}
+
+#odl-widget .odl-pull-left {
+    float: left;
+}
+
+#odl-widget .odl-center {
+    margin: 0 auto;
+}
+
+#odl-widget .odl-dates {
+    max-width: 127px;
+}
+#odl-widget .odl-mb-10 {
+    margin-bottom: 10px;
+}
